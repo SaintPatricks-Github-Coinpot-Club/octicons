@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Octicons
-  VERSION = "16.1.1".freeze
+  VERSION = "19.9.0".freeze
 end

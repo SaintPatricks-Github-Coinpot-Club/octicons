@@ -4,6 +4,7 @@ const fs = require('fs-extra')
 const path = require('path')
 const globby = require('globby')
 const cheerio = require('cheerio')
+const {parseSync} = require('svgson')
 const trimNewlines = require('trim-newlines')
 const yargs = require('yargs')
 const merge = require('lodash.merge')
@@ -24,7 +25,7 @@ const {argv} = yargs
   .option('output', {
     alias: 'o',
     type: 'string',
-    describe: 'Ouput JSON file. Defaults to stdout if no output file is provided.'
+    describe: 'Output JSON file. Defaults to stdout if no output file is provided.'
   })
 
 // The `argv.input` array could contain globs (e.g. "**/*.svg").
@@ -57,6 +58,9 @@ const icons = svgFilepaths.map(filepath => {
     const svgHeight = parseInt(svgElement.attr('height'))
     const svgViewBox = svgElement.attr('viewBox')
     const svgPath = trimNewlines(svgElement.html()).trim()
+    const ast = parseSync(svg, {
+      camelcase: true
+    })
 
     if (!svgWidth) {
       throw new Error(`${filename}: Missing width attribute.`)
@@ -97,7 +101,8 @@ const icons = svgFilepaths.map(filepath => {
       keywords: keywords[name] || [],
       width: svgWidth,
       height: svgHeight,
-      path: svgPath
+      path: svgPath,
+      ast
     }
   } catch (error) {
     // eslint-disable-next-line no-console
@@ -105,7 +110,7 @@ const icons = svgFilepaths.map(filepath => {
     // Instead of exiting immediately, we set exitCode to 1 and continue
     // iterating through the rest of the SVGs. This allows us to identify all
     // the SVGs that have errors, not just the first one. An exit code of 1
-    // indicates that an error occured.
+    // indicates that an error occurred.
     // Reference: https://nodejs.org/api/process.html#process_exit_codes
     exitCode = 1
     return null
@@ -126,7 +131,8 @@ const iconsByName = icons.reduce(
         heights: {
           [icon.height]: {
             width: icon.width,
-            path: icon.path
+            path: icon.path,
+            ast: icon.ast
           }
         }
       }

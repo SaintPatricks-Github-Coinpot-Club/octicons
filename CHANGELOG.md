@@ -1,5 +1,388 @@
 # Changelog
 
+## 19.15.0
+
+### Minor Changes
+
+- [#1063](https://github.com/primer/octicons/pull/1063) [`6481783a`](https://github.com/primer/octicons/commit/6481783a5a7258cc4d7981a0510de56be05a2dc3) Thanks [@dylanatsmith](https://github.com/dylanatsmith)! - Add square-circle icon
+
+## 19.14.0
+
+### Minor Changes
+
+- [#1037](https://github.com/primer/octicons/pull/1037) [`7402e69c`](https://github.com/primer/octicons/commit/7402e69c4d928b12340cb2430bb942ae7d96c6ba) Thanks [@jonrohan](https://github.com/jonrohan)! - Update octicons-react to use presentational attributes over inline styles for base styles
+
+* [#1047](https://github.com/primer/octicons/pull/1047) [`48198033`](https://github.com/primer/octicons/commit/481980330efce92501df9a388b27314a3f86f182) Thanks [@joshblack](https://github.com/joshblack)! - Add support for SVG props to base icons
+
+## 19.13.0
+
+### Minor Changes
+
+- [#1041](https://github.com/primer/octicons/pull/1041) [`ef89a78f`](https://github.com/primer/octicons/commit/ef89a78f9c0b92a32b7476b5680c327bcd8a6d64) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Adds sparkles icon (3 sparkles)
+
+* [#1027](https://github.com/primer/octicons/pull/1027) [`12c6fb00`](https://github.com/primer/octicons/commit/12c6fb0033c8f9dd22b5e8f93ddf3dff9bb7acb1) Thanks [@joshblack](https://github.com/joshblack)! - Update the build output to reduce number of generated assets included in the package on npm
+
+## 19.12.0
+
+### Minor Changes
+
+- [#1033](https://github.com/primer/octicons/pull/1033) [`7a5ac858`](https://github.com/primer/octicons/commit/7a5ac85800359eb1ee6c98c90533c5f344e6532d) Thanks [@colebemis](https://github.com/colebemis)! - Update `thumbsup` and `thumbsdown` icons
+
+## 19.11.0
+
+### Minor Changes
+
+- [#1028](https://github.com/primer/octicons/pull/1028) [`d27ea2f6`](https://github.com/primer/octicons/commit/d27ea2f6b52c5d26d4118259c86e4c91e58cfd56) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Adding ai-model icon at 16 & 24px
+
+## 19.10.0
+
+### Minor Changes
+
+- [#983](https://github.com/primer/octicons/pull/983) [`30be326a`](https://github.com/primer/octicons/commit/30be326ae23b108fd31decfd7823171150421bc4) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Add multiple missing icons
+
+### Patch Changes
+
+- [#1020](https://github.com/primer/octicons/pull/1020) [`449d81f1`](https://github.com/primer/octicons/commit/449d81f1b09bcbc0752ebc35d175a8b729022b55) Thanks [@joshblack](https://github.com/joshblack)! - Update types for @primer/octicons-react to explicitly include extensions for different moduleResolution settings
+
+## 19.9.0
+
+### Minor Changes
+
+- [#1008](https://github.com/primer/octicons/pull/1008) [`c5786ff2`](https://github.com/primer/octicons/commit/c5786ff2f3fb9ebca2405bb8d6cc53268b12674f) Thanks [@joshblack](https://github.com/joshblack)! - Update ESM import to use mjs extension when in parent CommonJS module
+
+### Patch Changes
+
+- [#1007](https://github.com/primer/octicons/pull/1007) [`79b93954`](https://github.com/primer/octicons/commit/79b93954c6857e81a685066c1b1205893e7161c5) Thanks [@joshblack](https://github.com/joshblack)! - Update octicons in React to no longer set `role="img"` if the icon is aria-hidden.
+
+## 19.8.0
+
+### Minor Changes
+
+- [#976](https://github.com/primer/octicons/pull/976) [`15ea1e43`](https://github.com/primer/octicons/commit/15ea1e43510a55a5f77d4f4bc76f5033d6655997) Thanks [@UnicodeRogue](https://github.com/UnicodeRogue)! - Adds filter remove octicon
+
+## 19.7.0
+
+### Minor Changes
+
+- [#980](https://github.com/primer/octicons/pull/980) [`5c207929`](https://github.com/primer/octicons/commit/5c207929bdda29e910f2c5b2f6df9de6ef902b84) Thanks [@gavinmn](https://github.com/gavinmn)! - Fix Feed icon alignment issue and name collision
+
+## 19.6.0
+
+### Minor Changes
+
+- [#977](https://github.com/primer/octicons/pull/977) [`e2a0cbdb`](https://github.com/primer/octicons/commit/e2a0cbdbd0566301e295ea38ffb4367c4650c656) Thanks [@gavinmn](https://github.com/gavinmn)! - Add new Feed icons
+
+## 19.5.0
+
+### Minor Changes
+
+- [#970](https://github.com/primer/octicons/pull/970) [`640441ee`](https://github.com/primer/octicons/commit/640441ee2935c85bb3e22022d4fb946be9b8d5c6) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Update repo-clone and repo-pull, add 24px versions
+
+### Patch Changes
+
+- [#966](https://github.com/primer/octicons/pull/966) [`b8a4b4dc`](https://github.com/primer/octicons/commit/b8a4b4dc47f734db7893fe50e93703f2b1d07a2a) Thanks [@gavinmn](https://github.com/gavinmn)! - Fix `pin-slash` bug
+
+## 19.4.0
+
+### Minor Changes
+
+- [#962](https://github.com/primer/octicons/pull/962) [`5805622c`](https://github.com/primer/octicons/commit/5805622c1f9005a4c81a7e7fb09225f2a0e31af4) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Edited small details on `copilot-warning` and `copilot-error` to maintain consistency with the rest of the copilot icon set.
+
+* [#961](https://github.com/primer/octicons/pull/961) [`e92cb36a`](https://github.com/primer/octicons/commit/e92cb36aedc3a9c28b8502733e8c30d01d716bb6) Thanks [@gavinmn](https://github.com/gavinmn)! - Save file-directory-symlink-16.svg, file-directory-symlink-24.svg
+
+## 19.3.0
+
+### Minor Changes
+
+- [#953](https://github.com/primer/octicons/pull/953) [`d3cb9cd8`](https://github.com/primer/octicons/commit/d3cb9cd8b5186a05eb26159f9c97754bef9ea127) Thanks [@gavinmn](https://github.com/gavinmn)! - Add Tracked By states
+
+## 19.2.0
+
+### Minor Changes
+
+- [#959](https://github.com/primer/octicons/pull/959) [`268b2021`](https://github.com/primer/octicons/commit/268b2021bed7b12ff878e999d8b532534b1e2dcc) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Add pivot-column icon
+
+* [#932](https://github.com/primer/octicons/pull/932) [`ea81ec17`](https://github.com/primer/octicons/commit/ea81ec17f0d3d8e74d53e484f551166339af3a17) Thanks [@green6erry](https://github.com/green6erry)! - Add `id`, `title`, and `aria-labelledby` props to icon components
+
+- [#957](https://github.com/primer/octicons/pull/957) [`ab786838`](https://github.com/primer/octicons/commit/ab786838f7ec93523b82c2905e37b9e0c8639e43) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Update copilot octicons for consistency
+
+* [#956](https://github.com/primer/octicons/pull/956) [`16318b6b`](https://github.com/primer/octicons/commit/16318b6b7ba9abcf75c8a17f8ea2204128f9541a) Thanks [@gavinmn](https://github.com/gavinmn)! - Add undo / redo icons
+
+## 19.1.0
+
+### Minor Changes
+
+- [#933](https://github.com/primer/octicons/pull/933) [`af6edab9`](https://github.com/primer/octicons/commit/af6edab99d51f31eac23395b016dd988e34ef05d) Thanks [@stvehayes](https://github.com/stvehayes)! - Add `devices` icon
+
+* [#950](https://github.com/primer/octicons/pull/950) [`8f0edd9e`](https://github.com/primer/octicons/commit/8f0edd9e3aade3901a10d133e14f0561919c945d) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Updates the `pin` icon with a flipped composition, and adds `pin-slash`
+
+- [#949](https://github.com/primer/octicons/pull/949) [`f6796914`](https://github.com/primer/octicons/commit/f6796914732ef96052585adbd8dcccb554bfb2d6) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Updating `move-to-top` and `move-to-bottom` to fix logic and alignment issues.
+
+## 19.0.0
+
+### Major Changes
+
+- [#943](https://github.com/primer/octicons/pull/943) [`a38ae2d2`](https://github.com/primer/octicons/commit/a38ae2d2cf0b51259be0ab9bc19052c4ddc64a09) Thanks [@broccolinisoup](https://github.com/broccolinisoup)! - Remove support for `Octicon`
+  Update peer dependency React version to support >=16.3
+  Update icons to use React.forwardRef
+
+### Minor Changes
+
+- [#937](https://github.com/primer/octicons/pull/937) [`6c94e0e8`](https://github.com/primer/octicons/commit/6c94e0e851c5c5b30cb7ddf73899cde54bf8e205) Thanks [@gavinmn](https://github.com/gavinmn)! - Add 12px `×` icon
+
+## 18.3.0
+
+### Minor Changes
+
+- [#934](https://github.com/primer/octicons/pull/934) [`3707c091`](https://github.com/primer/octicons/commit/3707c0917c53eb862457673ba5aa0dfc544be434) Thanks [@gavinmn](https://github.com/gavinmn)! - Add project-template-24.svg, project-template-16.svg
+
+## 18.2.0
+
+### Minor Changes
+
+- [#928](https://github.com/primer/octicons/pull/928) [`4135bc38`](https://github.com/primer/octicons/commit/4135bc38f8592906cfbe2ac6f6772aae1fe049cf) Thanks [@gavinmn](https://github.com/gavinmn)! - Add discussion state Octicons
+
+## 18.1.0
+
+### Minor Changes
+
+- [#927](https://github.com/primer/octicons/pull/927) [`ffd32dd6`](https://github.com/primer/octicons/commit/ffd32dd67e7599041e3e49867e16282e486b8f36) Thanks [@gavinmn](https://github.com/gavinmn)! - Add passkey-fill-24 and passkey-fill-16 octicons
+
+## 18.0.0
+
+### Major Changes
+
+- [#914](https://github.com/primer/octicons/pull/914) [`4d558ed9`](https://github.com/primer/octicons/commit/4d558ed962593dedde3d294194dce7c9419ee355) Thanks [@omerbensaadon](https://github.com/omerbensaadon)! - Update icon naming conventions for Tracks and Tracked By:
+
+  - `issue-tracked-by` → `issue-tracks`
+  - `issue-tracked-in` → `issue-tracked-by`
+
+### Minor Changes
+
+- [#924](https://github.com/primer/octicons/pull/924) [`6b494dfe`](https://github.com/primer/octicons/commit/6b494dfe07735fd343889678bfb0d13561396dc8) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Added missing 24px version of shield-slash-24.svg
+
+## 17.12.0
+
+### Minor Changes
+
+- [#904](https://github.com/primer/octicons/pull/904) [`ad0eb569`](https://github.com/primer/octicons/commit/ad0eb5699661138ee04baf8938fbb6f291f9f060) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Edit: Upload and download icons
+  Add: Move to start, end, top, and bottom icons
+
+* [#918](https://github.com/primer/octicons/pull/918) [`082f722d`](https://github.com/primer/octicons/commit/082f722d1b49ce148830f0e396a5f0933afaaf2a) Thanks [@gavinmn](https://github.com/gavinmn)! - Add 24pt merge queue icon
+
+- [#919](https://github.com/primer/octicons/pull/919) [`bbff0d13`](https://github.com/primer/octicons/commit/bbff0d13c08a0cebafed32d7787ae216c9b26778) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Save zoom-in-24.svg, zoom-out-24.svg, zoom-out-16.svg, zoom-in-16.svg
+
+## 17.11.1
+
+### Patch Changes
+
+- [#905](https://github.com/primer/octicons/pull/905) [`cbbc519f`](https://github.com/primer/octicons/commit/cbbc519ffd31eaf38d5d5b1e068ad4506d0d1e27) Thanks [@gr2m](https://github.com/gr2m)! - prefix relative paths with `./` in ESM exports paths
+
+## 17.11.0
+
+### Minor Changes
+
+- [#895](https://github.com/primer/octicons/pull/895) [`ce11fb3b`](https://github.com/primer/octicons/commit/ce11fb3b3c67b9c0f4f69bec14e5a962b189cba2) Thanks [@joshblack](https://github.com/joshblack)! - Update the npm package for `@primer/octicons-react` to include the `exports` field and explicitly list out files in `package.json`
+
+* [#902](https://github.com/primer/octicons/pull/902) [`4cbc043a`](https://github.com/primer/octicons/commit/4cbc043a81f81ad23f5e5bbb5dc687fe9f550877) Thanks [@gavinmn](https://github.com/gavinmn)! - Save sparkle-fill-16.svg
+
+- [#903](https://github.com/primer/octicons/pull/903) [`caf958be`](https://github.com/primer/octicons/commit/caf958be9c695ff9ee4381328a555f12b0d830fa) Thanks [@gavinmn](https://github.com/gavinmn)! - Save fiscal-host-16.svg
+
+### Patch Changes
+
+- [#894](https://github.com/primer/octicons/pull/894) [`410831bc`](https://github.com/primer/octicons/commit/410831bc3d3aee3b816fb4172031a470b7b1e38e) Thanks [@langermank](https://github.com/langermank)! - [Bug] up/down chevron alignment fix
+
+## 17.10.2
+
+### Patch Changes
+
+- [#886](https://github.com/primer/octicons/pull/886) [`b5a1530f`](https://github.com/primer/octicons/commit/b5a1530f441e5b2f7b3c874fe669c5d0d1838d9c) Thanks [@eliperkins](https://github.com/eliperkins)! - Upgrade to latest version of SVG Optimizer to remove invalid SVG paths on iOS, macOS and other native Apple target platforms.
+
+## 17.10.1
+
+### Patch Changes
+
+- [#882](https://github.com/primer/octicons/pull/882) [`503bafb9`](https://github.com/primer/octicons/commit/503bafb9578ea307fed3b261a1f8f9cbaea1c346) Thanks [@manuelpuyol](https://github.com/manuelpuyol)! - Use parameter defaults instead of defaultProps
+
+* [#883](https://github.com/primer/octicons/pull/883) [`8a039a7b`](https://github.com/primer/octicons/commit/8a039a7befa6b542404f416fac3f5c9ec99099cc) Thanks [@eliperkins](https://github.com/eliperkins)! - Remove fill-rule from SVGs using picosvg as an optimization step
+
+## 17.10.0
+
+### Minor Changes
+
+- [#874](https://github.com/primer/octicons/pull/874) [`3ff5aa6`](https://github.com/primer/octicons/commit/3ff5aa669d33a88048825d229656abfa459e4d64) Thanks [@gavinmn](https://github.com/gavinmn)! - Add rel-file-path-16.svg, rel-file-path-24.svg
+
+* [#878](https://github.com/primer/octicons/pull/878) [`5797f85`](https://github.com/primer/octicons/commit/5797f859859df31cd769e102fbf518ccaf9a976f) Thanks [@CameronFoxly](https://github.com/CameronFoxly)! - Save unlink-16.svg, unlink-24.svg
+
+- [#879](https://github.com/primer/octicons/pull/879) [`2fa8425`](https://github.com/primer/octicons/commit/2fa8425dab93346cd5d8b44bfc3709f0126e19fb) Thanks [@gavinmn](https://github.com/gavinmn)! - Save read-32.svg, unread-32.svg, read-48.svg, unread-48.svg
+
+* [#873](https://github.com/primer/octicons/pull/873) [`0d1b1ff`](https://github.com/primer/octicons/commit/0d1b1ffca5334c6207cf975f69459153f1d1cbfd) Thanks [@gavinmn](https://github.com/gavinmn)! - Add Goal icons
+
+- [#877](https://github.com/primer/octicons/pull/877) [`3916b29`](https://github.com/primer/octicons/commit/3916b29935d9845eec8726cc389b98281bc42b02) Thanks [@gavinmn](https://github.com/gavinmn)! - Save sponsor-tiers-16.svg, sponsor-tiers-24.svg
+
+## 17.9.0
+
+### Minor Changes
+
+- [#862](https://github.com/primer/octicons/pull/862) [`e15fe00`](https://github.com/primer/octicons/commit/e15fe007224d2785878b78dec36821373c75cbf7) Thanks [@ashygee](https://github.com/ashygee)! - Add project-roadmap icons. Thanks @ohiosveryown and @gavinmn!
+
+* [#861](https://github.com/primer/octicons/pull/861) [`1a6887d`](https://github.com/primer/octicons/commit/1a6887df3423ff539f6959d0fe8bb23c17dafa70) Thanks [@ashygee](https://github.com/ashygee)! - Add project-symlink icons. Thanks @peterloveland!
+
+- [#860](https://github.com/primer/octicons/pull/860) [`8a98d2b`](https://github.com/primer/octicons/commit/8a98d2b727623aa089912721513a68e8d4c0fc3f) Thanks [@ashygee](https://github.com/ashygee)! - Save clock-fill-16.svg, clock-fill-24.svg, skip-fill-16.svg, skip-fil… Thanks @dylanatsmith!
+
+## 17.8.0
+
+### Minor Changes
+
+- [#858](https://github.com/primer/octicons/pull/858) [`199f00e`](https://github.com/primer/octicons/commit/199f00e99e0fc3c5abb6e78f2255393a67c08fc6) Thanks [@heyamie](https://github.com/heyamie)! - Add diagonal arrows as 16px
+
+* [#857](https://github.com/primer/octicons/pull/857) [`da2c78f`](https://github.com/primer/octicons/commit/da2c78f103bbfd65aa046ea763325380592581a7) Thanks [@gavinmn](https://github.com/gavinmn)! - Add `issue-tracked-in` and `issue-tracked-by` icons
+
+## 17.7.0
+
+### Minor Changes
+
+- [#849](https://github.com/primer/octicons/pull/849) [`f6c8d2b`](https://github.com/primer/octicons/commit/f6c8d2b37a4f38d99d5f9279f793a88a020933cf) Thanks [@broccolinisoup](https://github.com/broccolinisoup)! - Add `tabIndex` prop to React icon components
+
+## 17.6.0
+
+### Minor Changes
+
+- [#848](https://github.com/primer/octicons/pull/848) [`ed25e50`](https://github.com/primer/octicons/commit/ed25e501f614afe1b43aa09c11f344d8b47a233d) Thanks [@ashygee](https://github.com/ashygee)! - Add filled alert icons
+  - alert-fill-16
+  - alert-fill-24
+
+* [#847](https://github.com/primer/octicons/pull/847) [`2f9b32e`](https://github.com/primer/octicons/commit/2f9b32e6b48cb58adac95552d6e7ddb2bf405a94) Thanks [@ashygee](https://github.com/ashygee)! - - add log-24.svg (TY @edokoa!)
+
+### Patch Changes
+
+- [#831](https://github.com/primer/octicons/pull/831) [`57f364a`](https://github.com/primer/octicons/commit/57f364a7e234080781355cd57fcf3bdd75b05af4) Thanks [@josepmartins](https://github.com/josepmartins)! - Adjust flex wrap in UI examples.Fixes #731
+
+## 17.5.0
+
+### Minor Changes
+
+- [#827](https://github.com/primer/octicons/pull/827) [`f186ad3`](https://github.com/primer/octicons/commit/f186ad3a07bd30954088e9e63936f81dc735bbcd) Thanks [@edokoa](https://github.com/edokoa)! - Save `accessibility-inset` 16px icon
+
+* [#828](https://github.com/primer/octicons/pull/828) [`6c0d207`](https://github.com/primer/octicons/commit/6c0d20761f62dad118db48e72d6e0b20210c38cb) Thanks [@edokoa](https://github.com/edokoa)! - Save `shield-slash` 16px icon
+
+## 17.4.1
+
+### Patch Changes
+
+- [#815](https://github.com/primer/octicons/pull/815) [`41c088e`](https://github.com/primer/octicons/commit/41c088e11862a2f693c7670deb3a12daa7a04089) Thanks [@ashygee](https://github.com/ashygee)! - Correct alignment for search-24
+
+## 17.4.0
+
+### Minor Changes
+
+- [#810](https://github.com/primer/octicons/pull/810) [`840f4eb`](https://github.com/primer/octicons/commit/840f4eb7d89020c36a8f8eeaa6f69042c67adc8e) Thanks [@ashygee](https://github.com/ashygee)! - - modifies tasklist icon proposed in https://github.com/github/primer/issues/746
+  - adds a new checkbox icon using metaphor from previous tasklist metaphor
+
+* [#807](https://github.com/primer/octicons/pull/807) [`d280148`](https://github.com/primer/octicons/commit/d280148ffaa43f3260b06ed723a059f72fc0ee3b) Thanks [@edokoa](https://github.com/edokoa)! - Add `cache` 16px icon
+
+- [#801](https://github.com/primer/octicons/pull/801) [`8e5dcfc`](https://github.com/primer/octicons/commit/8e5dcfcac8dda5c9d41ba8fb3d5b7d5d14ca3943) Thanks [@gavinmn](https://github.com/gavinmn)! - Save paperclip-16.svg, paperclip-24.svg
+
+* [#806](https://github.com/primer/octicons/pull/806) [`27575d0`](https://github.com/primer/octicons/commit/27575d0e67eb0e6557856d18535b75550a364e66) Thanks [@ashygee](https://github.com/ashygee)! - Save git-merge-queue-16.svg
+
+- [#811](https://github.com/primer/octicons/pull/811) [`a005869`](https://github.com/primer/octicons/commit/a0058690fc56e5740817e6f5060ecf0473c6fc46) Thanks [@ashygee](https://github.com/ashygee)! - Save command-palette-24.svg, command-palette-16.svg
+
+### Patch Changes
+
+- [#803](https://github.com/primer/octicons/pull/803) [`5090b7a`](https://github.com/primer/octicons/commit/5090b7acab73dc3f0f25936fceefdeb16bc19d2f) Thanks [@ashygee](https://github.com/ashygee)! - fix table icon
+
+## 17.3.0
+
+### Minor Changes
+
+- [#794](https://github.com/primer/octicons/pull/794) [`608d639`](https://github.com/primer/octicons/commit/608d6399af450f8eda444c73069b59d7fc10eaa4) Thanks [@gavinmn](https://github.com/gavinmn)! - Add `copilot` icons
+
+* [#766](https://github.com/primer/octicons/pull/766) [`8df01b5`](https://github.com/primer/octicons/commit/8df01b5031dac3bd1f11071bac9d7d699e69e4b5) Thanks [@edokoa](https://github.com/edokoa)! - Add 24px `repo-locked` icon
+
+## 17.2.0
+
+### Minor Changes
+
+- [#789](https://github.com/primer/octicons/pull/789) [`d59a5e2`](https://github.com/primer/octicons/commit/d59a5e2095495c9f8a2d9ad10072782df3714522) Thanks [@ashygee](https://github.com/ashygee)! - Add file-added, file-removed, file-moved
+  Update file to be consistent in height with other file icons
+
+### Patch Changes
+
+- [#786](https://github.com/primer/octicons/pull/786) [`0dede7f`](https://github.com/primer/octicons/commit/0dede7f202645bde2294b354284ce0592c248815) Thanks [@ashygee](https://github.com/ashygee)! - recenter org icon
+
+## 17.1.0
+
+### Minor Changes
+
+- [#756](https://github.com/primer/octicons/pull/756) [`2993d47`](https://github.com/primer/octicons/commit/2993d4733cbf3acdaf4286a1a5c17e0ced762967) Thanks [@Juliusschaeper](https://github.com/Juliusschaeper)! - Added `cloud` and `cloud-offline` icons
+
+* [#762](https://github.com/primer/octicons/pull/762) [`57105bb`](https://github.com/primer/octicons/commit/57105bbaffeb38de1bb5f8bc33e125bb3968a554) Thanks [@edokoa](https://github.com/edokoa)! - Add 16px `file-directory-open-fill` icon
+
+- [#783](https://github.com/primer/octicons/pull/783) [`47d3018`](https://github.com/primer/octicons/commit/47d30183a944383e1fb28651fe70e01f3a5dbe59) Thanks [@ashygee](https://github.com/ashygee)! - Save sliders-16.svg
+
+## 17.0.0
+
+### Major Changes
+
+- [#736](https://github.com/primer/octicons/pull/736) [`ec8cab8`](https://github.com/primer/octicons/commit/ec8cab891426f759fe665a781e3129241d83de8a) Thanks [@edokoa](https://github.com/edokoa)! - This patch fixes two problems:
+
+  - We're adding a non-filled `file-directory` icon to the set.
+  - We're fixing a problem where the 16px and 24px versions of the `file-directory` icons were mismatched between `fill` and `non-fill` versions of the icon.
+
+  **THIS IS A BREAKING CHANGE** and will require re-linking all the `file-directory` icon references to `file-directory-fill`
+
+### Minor Changes
+
+- [#754](https://github.com/primer/octicons/pull/754) [`7a51cb7`](https://github.com/primer/octicons/commit/7a51cb71b108b21aeb9a1716d443df3f23deba28) Thanks [@edokoa](https://github.com/edokoa)! - Add trophy-16.svg, trophy-24.svg
+
+* [#758](https://github.com/primer/octicons/pull/758) [`0d9000c`](https://github.com/primer/octicons/commit/0d9000c50255bac736eb0fbbc1ffee839130a708) Thanks [@edokoa](https://github.com/edokoa)! - Save repo-locked-16.svg
+
+- [#755](https://github.com/primer/octicons/pull/755) [`a520a37`](https://github.com/primer/octicons/commit/a520a374a0a29f47504e1a758e5cbfa0a4033721) Thanks [@Juliusschaeper](https://github.com/Juliusschaeper)! - Second batch of feed icons: merged, forked and achievement
+
+### Patch Changes
+
+- [#751](https://github.com/primer/octicons/pull/751) [`4e768a5`](https://github.com/primer/octicons/commit/4e768a5e427684cd92c87c6b6a0ff5a5dab1e0a4) Thanks [@Crayon2000](https://github.com/Crayon2000)! - Fix typos in build.js
+
+* [#734](https://github.com/primer/octicons/pull/734) [`afde0dd`](https://github.com/primer/octicons/commit/afde0dd4ee74ec32e6babde240b49e27d96f4d30) Thanks [@ashygee](https://github.com/ashygee)! - Modify upload-24.svg to mirror 16px version
+
+## 16.3.1
+
+### Patch Changes
+
+- [#733](https://github.com/primer/octicons/pull/733) [`a57b9ca`](https://github.com/primer/octicons/commit/a57b9ca1361cde081ce2c84f15ca8999639e5792) Thanks [@edokoa](https://github.com/edokoa)! - Modify upload-24.svg to mirror 16px version
+
+## 16.3.0
+
+### Minor Changes
+
+- [#715](https://github.com/primer/octicons/pull/715) [`ab991ab`](https://github.com/primer/octicons/commit/ab991ab318488efc3c02b747168a34e356fad059) Thanks [@edokoa](https://github.com/edokoa)! - Added new icons for:
+  - `accessibility`
+  - `apps`
+  - `id-badge`
+  - `log`
+  - `repo-deleted`
+  - `tab-external`
+  - `webhook`
+
+* [#708](https://github.com/primer/octicons/pull/708) [`6933ac3`](https://github.com/primer/octicons/commit/6933ac32f87a2cb5efda4fb74b39d1e6199134ce) Thanks [@Juliusschaeper](https://github.com/Juliusschaeper)! - Added first batch of 16px feed icons:
+  - `feed-discussion`
+  - `feed-heart`
+  - `feed-person`
+  - `feed-repo`
+  - `feed-rocket`
+  - `feed-star`
+  - `feed-tag`
+
+## 16.2.0
+
+### Minor Changes
+
+- [#706](https://github.com/primer/octicons/pull/706) [`2c43706`](https://github.com/primer/octicons/commit/2c4370658663817a216895ee7831a00d413f7d4e) Thanks [@Juliusschaeper](https://github.com/Juliusschaeper)! - Add `code-of-conduct` icon
+
+### Patch Changes
+
+- [#685](https://github.com/primer/octicons/pull/685) [`c59c097`](https://github.com/primer/octicons/commit/c59c097c23ccea6409c9e2f235b64a50b4d580dd) Thanks [@jonrohan](https://github.com/jonrohan)! - Formatting changes to the main readme file, including dark mode support.
+
 ## 16.1.1
 
 ### Patch Changes
@@ -246,7 +629,7 @@
 
 ### All packages
 
-- We've given Octicons a new look ✨ Some icons have new names and some icons haven't been redesigned yet. The following table documents those changes. If you're using an octicon in v9.x that doesn't have an equivelent in v10.0 yet, let us know by [opening an issue](https://github.com/primer/octicons/issues/new?assignees=&labels=icon+request&template=icon-request.md&title=%5BIcon+request%5D).
+- We've given Octicons a new look ✨ Some icons have new names and some icons haven't been redesigned yet. The following table documents those changes. If you're using an octicon in v9.x that doesn't have an equivalent in v10.0 yet, let us know by [opening an issue](https://github.com/primer/octicons/issues/new?assignees=&labels=icon+request&template=icon-request.md&title=%5BIcon+request%5D).
 
 | v9.x                     | v10.0                     | Notes                                                                                                                                               |
 | ------------------------ | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |

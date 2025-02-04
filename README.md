@@ -2,7 +2,7 @@
 ![octicons cover dark](https://user-images.githubusercontent.com/54012/138925203-80e1afa1-ba54-4731-9525-3c41186663f9.png#gh-dark-mode-only)
 <br>
 <br>
-<h1 align="center">Octicons</h1>
+<h1 align="center">Primer Octicons</h1>
 
 <p align="center">Octicons are a set of SVG icons built by GitHub for GitHub.</p>
 
@@ -25,7 +25,7 @@ The octicons node.js library is the main JavaScript library. With [a JavaScript 
 
 | Package                                                                              | Version                                                                                                                         |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| **[@primer/octicons](/lib/octicons_node)** <br />Node.js package with Javascript API | [![npm version](https://img.shields.io/npm/v/@primer/octicons.svg)](https://www.npmjs.org/package/@primer/octicons)             |
+| **[@primer/octicons](/lib/octicons_node)** <br />Node.js package with JavaScript API | [![npm version](https://img.shields.io/npm/v/@primer/octicons.svg)](https://www.npmjs.org/package/@primer/octicons)             |
 | **[@primer/octicons-react](/lib/octicons_react)** <br />React Octicons components    | [![npm version](https://img.shields.io/npm/v/@primer/octicons-react.svg)](https://www.npmjs.org/package/@primer/octicons-react) |
 | **[@primer/styled-octicons](/lib/octicons_styled)** <br />React Octicons components with Styled System props    | [![npm version](https://img.shields.io/npm/v/@primer/styled-octicons.svg)](https://www.npmjs.org/package/@primer/styled-octicons) |
 
@@ -42,11 +42,11 @@ The octicons node.js library is the main JavaScript library. With [a JavaScript 
 
 ### Feedback, ideas, and bug reports
 
-If you have feedback and ideas for improvement, open a new issue in this repo, using the appropriate [issue template](https://github.com/primer/octicons/issues/new/choose).
+If you found a bug, have feedback about our Octicon Library, or an idea on how to improve it, please open a new issue in this repo using the appropriate [issue template](https://github.com/primer/octicons/issues/new/choose).
 
-### Request a new icon (GitHub staff only)
+### Request an Icon Review (GitHub staff only)
 
-To request a new icon, open an issue using the [icon request](https://github.com/github/primer/issues/new?assignees=ashygee&labels=octicon%2C+request&template=2-icon-request.md&title=%5BIcon+request%5D+) template in github/primer.
+To request an icon review for inclusion in the Octicons Library, open an issue using the [icon review request](https://github.com/github/primer/issues/new?assignees=&labels=octicon%2C+request%2C+needs+triage&template=03-icon-request.md&title=%5BIcon+request%5D+) template in github/primer.
 
 ### Adding or updating an icon
 
